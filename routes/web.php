@@ -12,19 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 
-
-Route::get('astus',function(){
-	return view('stus.index');
+//
+//Route::get('astus',function(){
+//	return view('stus.index');
+//});
+//
+//Route::resource('stus','Admin\StuController');
+//Auth::routes();
+Route::group(['prefix'=>'/','namespace'=>'Home'],function(){
+    Route::post('/home', 'IndexController@index');
 });
-
-Route::resource('stus','Admin\StuController');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 
 
