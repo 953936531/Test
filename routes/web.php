@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+//Route::get('/', function () {
+//    return view('index');
+//});
 
 
 //
@@ -24,7 +24,7 @@ Route::get('/', function () {
 //Route::resource('stus','Admin\StuController');
 //Auth::routes();
 Route::group(['prefix'=>'/','namespace'=>'Home'],function(){
-    Route::post('/home', 'IndexController@index');
+    Route::get('/', 'IndexController@index');
 });
 
 
