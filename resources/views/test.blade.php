@@ -11,7 +11,6 @@
     <!-- Your custom styles (optional) -->
     <link href="fileStyle/css/style.css" rel="stylesheet">
     <link href="/css/jquery.zySlide.css" rel="stylesheet">
-
     <style>
         body{
         }
@@ -124,8 +123,7 @@
         <img style="width:100%;" src="/images/bannerdown.jpg" alt="">
     </div>
     <div style="position: absolute; left:57%;margin-top:480px;">
-        <audio src="/music/music.mp3?t=44444" style="width:30px;" controls="controls"></audio>
-        <br>
+
     </div>
 
     <div style="width:100%;height:100%;">

@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TEST</title>
+    <embed src="/music/music.mp3?t=44444" hidden="true" autostart="infinite" loop="-1">
 {{--    <link rel="stylesheet" href="/js/bootstrap/css/bootstrap.css">--}}
 
     @yield('css')
