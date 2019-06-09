@@ -149,12 +149,12 @@
         </ul>
     </div>
 
-    <div style="width:100%;">
+    <div style="width:100%; margin-top:40px;">
         <img style="width:100%" src="/images/down1.jpg?t=55555" alt="">
     </div>
 
     <div style="width:100%;">
-        <img style="width:100%" src="/images/down2.jpg?t=55555" alt="">
+        <img style="width:100%" src="/images/down2.png?t=55555" alt="">
     </div>
 
 
