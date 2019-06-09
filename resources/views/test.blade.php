@@ -85,21 +85,23 @@
             <div class="carousel-inner" role="listbox">
                 <!--First slide-->
                 <div class="carousel-item active">
-                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner1.jpg"
-                         alt="First slide">
+                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner3.jpg"
+                         alt="Second slide">
                 </div>
                 <!--/First slide-->
                 <!--Second slide-->
                 <div class="carousel-item">
-                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner2.jpg"
+                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner4.jpg"
                          alt="Second slide">
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner6.jpg"
+                         alt="First slide">
                 </div>
                 <!--/Second slide-->
                 <!--Third slide-->
-                <div class="carousel-item">
-                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner.jpg"
-                         alt="Third slide">
-                </div>
+
                 <!--/Third slide-->
             </div>
             <!--/.Slides-->
@@ -123,7 +125,7 @@
     <div>
         <img style="width:100%;" src="/images/bannerdown.jpg" alt="">
     </div>
-    <div style="position: absolute; left:58%;margin-top:400px;">
+    <div style="position: absolute; left:57%;margin-top:380px;">
         <audio src="/music/music.mp3?t=44444" style="width:30px;" controls="controls"></audio>
         <br>
     </div>
@@ -141,13 +143,13 @@
         <section>后一张</section>
         <ul>
             <!--alt + shift : 可以创建一个矩形选择区域-->
-            <li><img src="/images/1.jpg" /></li>
-            <li><img src="/images/2.jpg" /></li>
-            <li><img src="/images/3.jpg" /></li>
-            <li><img src="/images/4.jpg" /></li>
-            <li><img src="/images/5.jpg" /></li>
-            <li><img src="/images/6.jpg" /></li>
-            <li><img src="/images/7.jpg" /></li>
+            <li><img src="/images/20.jpg" /></li>
+            <li><img src="/images/21.jpg" /></li>
+            <li><img src="/images/22.jpg" /></li>
+            <li><img src="/images/23.jpg" /></li>
+            <li><img src="/images/24.jpg" /></li>
+            <li><img src="/images/25.jpg" /></li>
+            <li><img src="/images/26.jpg" /></li>
         </ul>
     </div>
 
