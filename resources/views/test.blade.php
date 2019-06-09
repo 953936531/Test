@@ -25,7 +25,7 @@
             height:70px;
             line-height: 80px;
             list-style-type:none;
-            font-size:22px;
+            font-size:21px;
         }
         .product{
             position:absolute;
@@ -67,7 +67,7 @@
     <div>
         <ul class="nav">
             <li style="text-align: right"><img style="width:65%" src="/images/logo.jpg" alt=""></li>
-            <li><strong>首页</strong></li>
+            <li style="font-size:24px;"><strong>首页</strong></li>
             <li>歌曲租用</li>
             <li>版权出售</li>
             <li>采样包</li>
@@ -130,16 +130,16 @@
     </div>
 
     <div style="width:100%;height:100%;">
-        <img style="width:100%;height:100%;" src="/images/changpian20.png?t=55555" alt="">
+        <img style="width:101%;height:100%; margin-left:-1%;" src="/images/changpian50.png?t=55555" alt="">
     </div>
     <div style="width:100%; margin-top:-1px;">
-        <img style="width:100%; height:90%;" src="/images/c7tnt.png?c=4444" alt="">
+        <img style="width:100%; height:90%;" src="/images/c9tnt.png?c=4444" alt="">
 
     </div>
     <div id="Slide1" class="zy-Slide" style="margin-top: -20px;">
         <!--prev:元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。-->
-        <section>前一张</section>
-        <section>后一张</section>
+        <section> <span style="font-size:50px;"><</span> </section>
+        <section> <span style="font-size:50px;"> > </span></section>
         <ul>
             <!--alt + shift : 可以创建一个矩形选择区域-->
             <li><img src="/images/20.jpg" /></li>

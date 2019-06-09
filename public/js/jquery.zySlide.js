@@ -10,13 +10,13 @@
             delay: 3000
         }, options)//拓展
         this.states = [
-            { '&zIndex': 1, width: 120, height: 150, top: 71, left: 134, $opacity: 0.5 },
-            { '&zIndex': 2, width: 130, height: 170, top: 61, left: 0, $opacity: 0.6 },
-            { '&zIndex': 3, width: 170, height: 218, top: 37, left: 110, $opacity: 0.7 },
-            { '&zIndex': 4, width: 224, height: 288, top: 0, left: 262, $opacity: 1 },
-            { '&zIndex': 3, width: 170, height: 218, top: 37, left: 468, $opacity: 0.7 },
-            { '&zIndex': 2, width: 130, height: 170, top: 61, left: 620, $opacity: 0.6 },
-            { '&zIndex': 1, width: 120, height: 150, top: 71, left: 496, $opacity: 0.5 }
+            { '&zIndex': 1, width: 120, height: 120, top: 71, left: 134, $opacity: 0.5 },
+            { '&zIndex': 2, width: 130, height: 130, top: 61, left: 0, $opacity: 0.6 },
+            { '&zIndex': 3, width: 170, height: 170, top: 37, left: 110, $opacity: 0.7 },
+            { '&zIndex': 4, width: 224, height: 224, top: 0, left: 262, $opacity: 1 },
+            { '&zIndex': 3, width: 170, height: 170, top: 37, left: 468, $opacity: 0.7 },
+            { '&zIndex': 2, width: 130, height: 130, top: 61, left: 620, $opacity: 0.6 },
+            { '&zIndex': 1, width: 120, height: 120, top: 71, left: 496, $opacity: 0.5 }
         ]
         this.lis = this.$ele.find('li')
         this.interval
