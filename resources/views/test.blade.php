@@ -63,7 +63,7 @@
 @section('content')
     <div>
         <ul class="nav">
-            <li style="text-align: right"><img src="/images/logo.jpg" alt=""></li>
+            <li style="text-align: right"><img style="width:40%" src="/images/logo.jpg" alt=""></li>
             <li style="color:green">首页</li>
             <li>歌曲租用</li>
             <li>版权出售</li>
@@ -72,7 +72,7 @@
             <li><i class="fas fa-search"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="far fa-user"></i></li>
         </ul>
     </div>
-    <div  style="clear:both; height:600px;margin-top:50px;">
+    <div  style="clear:both; height:600px;margin-top:30px;">
         <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
@@ -121,13 +121,13 @@
     <div>
         <img style="width:100%;" src="/images/bannerdown.jpg" alt="">
     </div>
-    <div style="position: absolute; left:57%;margin-top:380px;">
+    <div style="position: absolute; left:57%;margin-top:480px;">
         <audio src="/music/music.mp3?t=44444" style="width:30px;" controls="controls"></audio>
         <br>
     </div>
 
-    <div style="width:100%;height:860px;">
-        <img style="width:100%;height:100%;" src="/images/changpian.jpg?t=55555" alt="">
+    <div style="width:100%;height:100%;">
+        <img style="width:100%;height:100%;" src="/images/changpian10.png?t=55555" alt="">
     </div>
     <div style="width:100%; margin-top:-1px;">
         <img style="width:100%; height:90%;" src="/images/c6tnt.png?c=4444" alt="">
