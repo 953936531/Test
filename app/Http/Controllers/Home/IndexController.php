@@ -10,7 +10,7 @@ class IndexController extends Controller
 {
 
     private $APPseret = '37191513daf6013987190c1df3288f44';
-    public function index(Request $request){
+    public function Index(Request $request){
 
 //        $ip = $_SERVER["REMOTE_ADDR"];
 //        dd($ip);
@@ -19,5 +19,10 @@ class IndexController extends Controller
 //        $html = file_get_contents($url);
 //       dd($html);
         return view('index');
+    }
+
+    public function Test(Request $request){
+
+        return view('test');
     }
 }

@@ -76,7 +76,7 @@
 
             <p>
               <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
-              <a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+              <a id="down" href="#" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
             </p>
           </div>
         </div>
@@ -709,9 +709,6 @@
       </div>
     </footer>
 
-    
-    
-
     <script src="/js/vendor/jquery.min.js"></script>
     <script src="/js/vendor/popper.min.js"></script>
     <script src="/js/vendor/bootstrap.min.js"></script>
@@ -757,6 +754,5 @@
 {{--        })--}}
 {{--      });--}}
 {{--    </script>--}}
-
   </body>
 </html>

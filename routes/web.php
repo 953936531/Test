@@ -24,7 +24,8 @@
 //Route::resource('stus','Admin\StuController');
 //Auth::routes();
 Route::group(['prefix'=>'/','namespace'=>'Home'],function(){
-    Route::get('/', 'IndexController@index');
+    Route::get('/', 'IndexController@Index');
+    Route::get('/test', 'IndexController@Test');
 });
 
 
