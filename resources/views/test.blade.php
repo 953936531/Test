@@ -15,15 +15,17 @@
         body{
         }
         .nav{
-            margin-top: 5px;
+            margin-left:100px;
+            margin-top: 2px;
         }
         .nav li{
             text-align: center;
             float:left;
-            width:13%;
+            width:8%;
             height:70px;
             line-height: 80px;
             list-style-type:none;
+            font-size:22px;
         }
         .product{
             position:absolute;
@@ -64,16 +66,16 @@
 @section('content')
     <div>
         <ul class="nav">
-            <li style="text-align: right"><img style="width:40%" src="/images/logo.jpg" alt=""></li>
-            <li style="color:green">首页</li>
+            <li style="text-align: right"><img style="width:65%" src="/images/logo.jpg" alt=""></li>
+            <li><strong>首页</strong></li>
             <li>歌曲租用</li>
             <li>版权出售</li>
             <li>采样包</li>
             <li>关于我们</li>
-            <li><i class="fas fa-search"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="far fa-user"></i></li>
+            <li style="margin-left:20%;"><i class="fas fa-search"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="far fa-user"></i></li>
         </ul>
     </div>
-    <div  style="clear:both; height:500px;margin-top:20px;">
+    <div  style="clear:both; height:500px;margin-top:15px;">
         <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
@@ -128,10 +130,10 @@
     </div>
 
     <div style="width:100%;height:100%;">
-        <img style="width:100%;height:100%;" src="/images/changpian10.png?t=55555" alt="">
+        <img style="width:100%;height:100%;" src="/images/changpian20.png?t=55555" alt="">
     </div>
     <div style="width:100%; margin-top:-1px;">
-        <img style="width:100%; height:90%;" src="/images/c6tnt.png?c=4444" alt="">
+        <img style="width:100%; height:90%;" src="/images/c7tnt.png?c=4444" alt="">
 
     </div>
     <div id="Slide1" class="zy-Slide" style="margin-top: -20px;">
@@ -151,11 +153,11 @@
     </div>
 
     <div style="width:100%; margin-top:40px;">
-        <img style="width:100%" src="/images/down1.jpg?t=55555" alt="">
+        <img style="width:100%" src="/images/down1.png?t=55555" alt="">
     </div>
 
     <div style="width:100%;">
-        <img style="width:100%" src="/images/down2.png?t=55555" alt="">
+        <img style="width:100%" src="/images/downtwo.png?t=55555" alt="">
     </div>
 
 
