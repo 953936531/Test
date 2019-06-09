@@ -123,7 +123,8 @@
         <img style="width:100%;" src="/images/bannerdown.jpg" alt="">
     </div>
     <div style="position: absolute; left:57%;margin-top:480px;">
-
+        <audio src="/music/music.mp3" id="audio1" autoplay="true" loop="true">
+        </audio>
     </div>
 
     <div style="width:100%;height:100%;">
