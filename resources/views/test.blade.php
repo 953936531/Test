@@ -72,7 +72,7 @@
             <li><i class="fas fa-search"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="far fa-user"></i></li>
         </ul>
     </div>
-    <div  style="clear:both; height:600px;">
+    <div  style="clear:both; height:600px;margin-top:50px;">
         <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
@@ -85,24 +85,20 @@
             <div class="carousel-inner" role="listbox">
                 <!--First slide-->
                 <div class="carousel-item active">
-                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner3.jpg"
+                    <img class="d-block w-100" style="height:700px;width:100%;" src="/images/banner3.jpg"
                          alt="Second slide">
                 </div>
                 <!--/First slide-->
                 <!--Second slide-->
                 <div class="carousel-item">
-                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner4.jpg"
+                    <img class="d-block w-100" style="height:700px;width:100%;" src="/images/banner4.jpg"
                          alt="Second slide">
                 </div>
 
                 <div class="carousel-item ">
-                    <img class="d-block w-100" style="height:800px;width:100%;" src="/images/banner6.jpg"
+                    <img class="d-block w-100" style="height:700px;width:100%;" src="/images/banner6.jpg"
                          alt="First slide">
                 </div>
-                <!--/Second slide-->
-                <!--Third slide-->
-
-                <!--/Third slide-->
             </div>
             <!--/.Slides-->
             <!--Controls-->
