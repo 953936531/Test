@@ -15,12 +15,14 @@
     <style>
         body{
         }
-
+        .nav{
+            margin-top: 5px;
+        }
         .nav li{
             text-align: center;
             float:left;
             width:13%;
-            height:80px;
+            height:70px;
             line-height: 80px;
             list-style-type:none;
         }
@@ -72,7 +74,7 @@
             <li><i class="fas fa-search"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="far fa-user"></i></li>
         </ul>
     </div>
-    <div  style="clear:both; height:600px;margin-top:30px;">
+    <div  style="clear:both; height:500px;margin-top:20px;">
         <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
