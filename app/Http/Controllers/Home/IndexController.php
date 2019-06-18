@@ -23,6 +23,5 @@ class IndexController extends Controller
 
     public function Test(Request $request){
 
-        return view('test');
     }
 }
