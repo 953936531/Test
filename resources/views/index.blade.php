@@ -22,7 +22,7 @@
   <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
   
 
-   
+{{--   <button id="lll">点击</button>--}}
     <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
       <div class="container">
@@ -530,6 +530,12 @@
             </div>
 
           </div>
+
+
+
+          <div id="morecolor">让页面滚动到我这里来</div>
+
+
           <div class="col-md-6">
             
 
@@ -686,6 +692,7 @@
     </section>
 
 
+
     <footer class="site-footer">
       <div class="container">
         <div class="row mb-3">
@@ -756,3 +763,47 @@
 {{--    </script>--}}
   </body>
 </html>
+
+<script>
+  // $("#lll").click(function () {
+  //   $('html , body').animate({scrollTop: $('#morecolor').offset().top}, 1000);
+  // })
+
+
+</script>
+<script type="text/javascript">
+  /* 鼠标特效 */
+  var a_idx = 0;
+  var c_idx = 0;
+  jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+      var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+      var $i = $("<span/>").text(a[a_idx]);
+      a_idx = (a_idx + 1) % a.length;
+
+      var c = new Array("#FF0080","#F9F900","#FF5809","#00EC00","#00E3E3","#4A4AFF","#921AFF");
+      c_idx = (c_idx + 1) % c.length;
+      var ci = c[c_idx];
+
+      var x = e.pageX,
+              y = e.pageY;
+      $i.css({
+        "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+        "top": y - 20,
+        "left": x,
+        "position": "absolute",
+        "font-weight": "bold",
+        "color": ci
+      });
+      $("body").append($i);
+      $i.animate({
+                "top": y - 180,
+                "opacity": 0
+              },
+              1500,
+              function() {
+                $i.remove();
+              });
+    });
+  });
+</script>
