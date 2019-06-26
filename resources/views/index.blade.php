@@ -17,7 +17,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 
-    
+    <style>
+
+    </style>
   </head>
   <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
   
@@ -692,6 +694,7 @@
     </section>
 
 
+<input type="text" id="isn">
 
     <footer class="site-footer">
       <div class="container">
@@ -777,8 +780,9 @@
   var c_idx = 0;
   jQuery(document).ready(function($) {
     $("body").click(function(e) {
-      var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
-      var $i = $("<span/>").text(a[a_idx]);
+      // var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+      var a = new Array("<img src=\"/images/1.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/2.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/3.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/4.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/5.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/6.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/7.jpg\" style='border-radius: 50%;' alt=\"\">\n","<img src=\"/images/8.jpg\" style='border-radius: 50%;' alt=\"\">\n");
+      var $i = $("<span/>").html(a[a_idx]);
       a_idx = (a_idx + 1) % a.length;
 
       var c = new Array("#FF0080","#F9F900","#FF5809","#00EC00","#00E3E3","#4A4AFF","#921AFF");
@@ -798,7 +802,7 @@
       $("body").append($i);
       $i.animate({
                 "top": y - 180,
-                "opacity": 0
+                "opacity": 0.5
               },
               1500,
               function() {
@@ -806,4 +810,8 @@
               });
     });
   });
+
+  $("#isn").blur(function(){
+    $("#isn").val('666666');
+  })
 </script>
