@@ -10,20 +10,28 @@
     </style>
 @stop
 @section('content')
+<div>
+    @if($dakey['code'] == '200')
+   <p>金额: {{$dakey['amount']}}</p>
     <table>
         <tr>
-            <th>姓名</th>
-            <th>年龄</th>
-            <th>头像</th>
+            <td>ID</td>
+            <td>金额</td>
         </tr>
-        @foreach($users as $user)
+        @foreach($dakey['data'] as $value)
         <tr>
-            <td>{{$user->name}}</td>
-            <td>{{$user->age}}</td>
-            <td><img style="width:150px;height:150px;" src="/upload/{{$user->imgPath}}" alt=""></td>
+            <td>{{$value['id']}}</td>
+            <td>{{$value['total_amount']}}</td>
         </tr>
         @endforeach
     </table>
+    @else
+
+    <div>
+        {{$dakey['message']}}
+    </div>
+    @endif
+</div>
 @stop
 
 @section('script')

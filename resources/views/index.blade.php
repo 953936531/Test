@@ -37,10 +37,6 @@
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-blog">Blog</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
           </ul>
         </div>
@@ -50,7 +46,7 @@
 
    
     
-    <section class="site-hero" style="background-image: url(images/image_1.jpg?t=55555);" id="section-home" data-stellar-background-ratio="0.5">
+    <section class="site-hero" style="background-image: url(images/mingzhu.jpg?t=55555);" id="section-home" data-stellar-background-ratio="1">
       <div class="container">
         <div class="row intro-text align-items-center justify-content-center">
           <div class="col-md-10 text-center">
@@ -192,7 +188,7 @@
 
               <div class="block-47 d-flex mb-5">
                 <div class="block-47-image">
-                  <img src="/images/person_1.jpg" alt="Image placeholder" class="img-fluid">
+                  <img src="/images/1.jpg" alt="Image placeholder" class="img-fluid">
                 </div>
                 <blockquote class="block-47-quote">
                   <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
@@ -205,7 +201,7 @@
             
             <div class="block-47 d-flex mb-5">
                 <div class="block-47-image">
-                  <img src="/images/person_2.jpg" alt="Image placeholder" class="img-fluid">
+                  <img src="/images/2.jpg" alt="Image placeholder" class="img-fluid">
                 </div>
                 <blockquote class="block-47-quote">
                   <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
@@ -219,7 +215,7 @@
             
               <div class="block-47 d-flex mb-5">
                 <div class="block-47-image">
-                  <img src="/images/person_3.jpg" alt="Image placeholder" class="img-fluid">
+                  <img src="/images/3.jpg" alt="Image placeholder" class="img-fluid">
                 </div>
                 <blockquote class="block-47-quote">
                   <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
@@ -232,7 +228,7 @@
             
             <div class="block-47 d-flex mb-5">
                 <div class="block-47-image">
-                  <img src="/images/person_4.jpg" alt="Image placeholder" class="img-fluid">
+                  <img src="/images/4.jpg" alt="Image placeholder" class="img-fluid">
                 </div>
                 <blockquote class="block-47-quote">
                   <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
@@ -240,397 +236,6 @@
                 </blockquote>
               </div>
 
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section border-top pb-0"  id="section-services">
-      <div class="container">
-
-        <div class="row mb-4">
-          <div class="col-md-12">
-            <div class="section-heading text-center">
-              <h2>My <strong>Services</strong></h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-              <span class="icon">
-                <span class="icon-phone3"></span>
-              </span>
-              <h3 class="mb-4">Mobile Optimize</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-              <span class="icon">
-                <span class="icon-wallet2"></span>
-              </span>
-              <h3 class="mb-4">Increase Revenue</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-              <span class="icon">
-                <span class="icon-lightbulb"></span>
-              </span>
-              <h3 class="mb-4">Intuitive Idea</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-              <span class="icon">
-                <span class="icon-phone3"></span>
-              </span>
-              <h3 class="mb-4">Mobile Optimize</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-              <span class="icon">
-                <span class="icon-wallet2"></span>
-              </span>
-              <h3 class="mb-4">Increase Revenue</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-              <span class="icon">
-                <span class="icon-lightbulb"></span>
-              </span>
-              <h3 class="mb-4">Intuitive Idea</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" title="网站模板">网站模板</a></div>
-
-    <section class="site-section" id="section-features">
-      <div class="container">
-        <div class="row site-section">
-          <div class="col-md-8">
-            <p><img src="images/laptop_1.jpg" alt="" class="img-fluid"></p>
-          </div>
-          <div class="col-md-4">
-            <h3 class="mb-3">Big Benefits for Small Business</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-
-            <ul class="site-list">
-              <li class="site-check">Pointing has no control</li>
-              <li class="site-check">A small river named Duden flows</li>
-              <li class="site-check">Roasted parts of sentences fly into your mouth</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-8 order-md-2">
-            <p><img src="/images/laptop_1.jpg" alt="" class="img-fluid"></p>
-          </div>
-          <div class="col-md-4 order-md-1">
-            <h3 class="mb-3">All in One Place</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-
-            <ul class="site-list">
-              <li class="site-check">Pointing has no control</li>
-              <li class="site-check">A small river named Duden flows</li>
-              <li class="site-check">Roasted parts of sentences fly into your mouth</li>
-            </ul>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-    
-
-    <section class="site-section" id="section-portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="section-heading text-center col-md-12">
-              <h2>Featured <strong>Portfolio</strong></h2>
-            </div>
-        </div>
-        <div class="filters">
-                        <ul>
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".packaging">Packaging</li>
-                            <li data-filter=".mockup">Mockup</li>
-                            <li data-filter=".typography">Typography</li>
-                            <li data-filter=".photography">Photography</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="filters-content">
-                        <div class="row grid">
-                            <div class="single-portfolio col-sm-4 all mockup">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="/images/p1.jpg" alt="">
-                                </div>
-                  <a href="/images/p1.jpg" class="img-pop-up">
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="/images/preview.png" alt=""></div>
-                    </div>
-                </a>                                  
-                              </div>
-                <div class="p-inner">
-                    <h4>Square Box Mockup</h4>
-                  <div class="cat">Mockup</div>
-                </div>                                         
-                            </div>
-                            <div class="single-portfolio col-sm-4 all mockup">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="/images/p2.jpg" alt="">
-                                </div>
-                  <a href="/images/p2.jpg" class="img-pop-up">
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="/images/preview.png" alt=""></div>
-                    </div>
-                </a>                                  
-                              </div>
-                <div class="p-inner">
-                    <h4>Product Box Package Mockup</h4>
-                  <div class="cat">Mockup</div>
-                </div>                                         
-                            </div>                            
-                            <div class="single-portfolio col-sm-4 all packaging">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="/images/p3.jpg" alt="">
-                                </div>
-                  <a href="/images/p3.jpg" class="img-pop-up">
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="/images/preview.png" alt=""></div>
-                    </div>
-                  </a> 
-                                  
-                              </div>
-                                <div class="p-inner">
-                                    <h4>Creative Package Design</h4>
-                                    <div class="cat">Packaging</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all packaging">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="/images/p4.jpg" alt="">
-                                </div>
-                  <a href="/images/p4.jpg" class="img-pop-up">
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="/images/preview.png" alt=""></div>
-                    </div>
-                  </a>                                
-                              </div> 
-                                <div class="p-inner">
-                                    <h4>Packaging Brand</h4>
-                                    <div class="cat">Packaging</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all typography">
-                              <div class="relative">
-                              <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="/images/p5.jpg" alt="">
-                                </div>
-                  <a href="/images/p5.jpg" class="img-pop-up">
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="/images/preview.png" alt=""></div>
-                    </div>
-                  </a>                                
-                              </div>
-                                <div class="p-inner">
-                                    <h4>Isometric 3D Extrusion</h4>
-                                    <div class="cat">Typography</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all photography">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="/images/p6.jpg" alt="">
-                                </div>
-                  <a href="/images/p6.jpg" class="img-pop-up">
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="/images/preview.png" alt=""></div>
-                    </div>
-                  </a>                                
-                              </div>
-                                <div class="p-inner">
-                                    <h4>White Space Photography</h4>
-                                    <div class="cat">photography</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-      </div>
-    </section>
-    <!-- .section -->
-
-    <section class="site-section bg-light " id="section-resume">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-5">
-            <div class="section-heading text-center">
-              <h2>My <strong>Resume</strong></h2>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <h2 class="mb-5">Education</h2>
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-          </div>
-
-
-
-          <div id="morecolor">让页面滚动到我这里来</div>
-
-
-          <div class="col-md-6">
-            
-
-            <h2 class="mb-5">Experience</h2>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Github</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Facebook</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Twitter</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Shopify</span>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </section> <!-- .section -->
-
-    <section class="site-section" id="section-blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-5">
-            <div class="section-heading text-center">
-              <h2>Blog on <strong>Medium</strong></h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="blog-entry">
-              <a href="#"><img src="/images/post_1.jpg" alt="Image placeholder" class="img-fluid"></a>
-              <div class="blog-entry-text">
-                <h3><a href="#">Creative Product Designer From Facebook</a></h3>
-                <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-
-                <div class="meta">
-                  <a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-                  <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="blog-entry">
-              <a href="#"><img src="/images/post_2.jpg" alt="Image placeholder" class="img-fluid"></a>
-              <div class="blog-entry-text">
-                <h3><a href="#">Creative Product Designer From Facebook</a></h3>
-                <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-
-                <div class="meta">
-                  <a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-                  <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="blog-entry">
-              <a href="#"><img src="/images/post_3.jpg" alt="Image placeholder" class="img-fluid"></a>
-              <div class="blog-entry-text">
-                <h3><a href="#">Creative Product Designer From Facebook</a></h3>
-                <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-
-                <div class="meta">
-                  <a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-                  <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-                </div>
-              </div>
-            </div>
           </div>
 
         </div>
@@ -694,7 +299,6 @@
     </section>
 
 
-<input type="text" id="isn">
 
     <footer class="site-footer">
       <div class="container">
@@ -731,47 +335,32 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="/js/custom.js"></script>
     <script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
-{{--    <script>--}}
-{{--      let timestamp = (new Date()).valueOf();--}}
-{{--      wx.config({--}}
-{{--        debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。--}}
-{{--        appId: 'wx2af68763f70f0a4b', // 必填，公众号的唯一标识--}}
-{{--        timestamp: timestamp, // 必填，生成签名的时间戳--}}
-{{--        nonceStr: '123456', // 必填，生成签名的随机串--}}
-{{--        signature: 'jiangbiao',// 必填，签名--}}
-{{--        jsApiList: ['checkJsApi','updateAppMessageShareData','ready'] // 必填，需要使用的JS接口列表--}}
-{{--      });--}}
-{{--      wx.ready(function () {--}}
-{{--        wx.checkJsApi({--}}
-{{--        jsApiList: ['updateAppMessageShareData'], // 需要检测的JS接口列表，所有JS接口列表见附录2,--}}
-{{--        success: function(res) {--}}
-{{--          console.log('resresres',res)--}}
-{{--          // 以键值对的形式返回，可用的api值true，不可用为false--}}
-{{--          // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}--}}
-{{--        }--}}
-{{--      })--}}
-{{--      });--}}
-
-{{--      wx.ready(function () {   //需在用户可能点击分享按钮前就先调用--}}
-{{--        wx.updateAppMessageShareData({--}}
-{{--          title: '张江彪', // 分享标题--}}
-{{--          desc: '一个在上海工作的开发,每天都在成长,PHP是世界上最好的语言;', // 分享描述--}}
-{{--          link: '', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致--}}
-{{--          imgUrl: '/images/image_1_long.jpg', // 分享图标--}}
-{{--          success: function () {--}}
-{{--            // 设置成功--}}
-{{--          }--}}
-{{--        })--}}
-{{--      });--}}
-{{--    </script>--}}
   </body>
 </html>
 
+<script src="/js/jquery.blockUI.js"></script>
 <script>
-  // $("#lll").click(function () {
-  //   $('html , body').animate({scrollTop: $('#morecolor').offset().top}, 1000);
-  // })
-
+  // var blockUI = function () {
+  //   $.blockUI({ css: {
+  //       border: 'none',
+  //       padding: '15px',
+  //       zIndex: 20000,
+  //       backgroundColor: '#000',
+  //       '-webkit-border-radius': '10px',
+  //       '-moz-border-radius': '10px',
+  //       opacity: .5,
+  //       color: '#fff'
+  //     } });
+  // };
+  // var unblockUI =function () {
+  //   $.unblockUI();
+  // };
+  // blockUI();
+  // setTimeout(function(){
+  //   unblockUI();
+  // }, 3000);
+</script>
+<script>
 
 </script>
 <script type="text/javascript">
@@ -810,8 +399,4 @@
               });
     });
   });
-
-  $("#isn").blur(function(){
-    $("#isn").val('666666');
-  })
 </script>
