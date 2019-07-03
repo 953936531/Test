@@ -13,7 +13,7 @@ class IndexController extends Controller
 
     public function Index(Request $request){
 
-        $url = 'http://mp.jsmdiamond.com/api/v1/testSuDo?endpoint=http://e.lixiaocrm.com&user_token=d4e91470ca4c9aea0b293528cf592a39&version_code=3.13.0&device=wxwork&id=9213627&start_date=2018-6-10&end_date=2019-6-30';
+        $url = 'https://mp.jsmdiamond.com/api/v1/testSuDo?endpoint=http://e.lixiaocrm.com&user_token=d4e91470ca4c9aea0b293528cf592a39&version_code=3.13.0&device=wxwork&id=35403639';
         $data = '';
         try{
             $data = $this->get($url);
@@ -29,7 +29,6 @@ class IndexController extends Controller
             );
             return view('list',['dakey'=>$outPutReult]);
         }
-
         $newData = json_decode($data,true);
        $orderAll = $newData['data'];
         $delIdArr = array(); /* 存放需要删除的合同ID */
@@ -44,7 +43,7 @@ class IndexController extends Controller
                 $outPutReult = array(
                     'code'=>'200',
                     'amount'=>$pric,
-                    'order'=>$orderAll
+                    'data'=>$orderAll
                 );
                 return view('list',['dakey'=>$outPutReult]);
             } else {
@@ -71,6 +70,7 @@ class IndexController extends Controller
                     $test = false;  /* 为true会执行将两个合同总价加在一起，并对delIdArr数组进行去重 */
                     $product = $value['product_assets_for_new_record'];  /* 合同下产品赋值 */
                     foreach ($product as $c => $n) {
+                        $productAmount = 0;
                         if ($n['product']['product_category']['name'] == 'KDC产品'){
                             unset($orderAll[$key]);
                             continue;
@@ -95,24 +95,25 @@ class IndexController extends Controller
                                         $test = true;
                                     }
                                 }
-
                             }
 
                             if($nml){
-                                $total_amount = $total_amount + $p['total_amount'];
+                                $productAmount = $productAmount + $p['total_amount'];
                             }
 
                         }
-
+                         $total_amount = $productAmount;
                     }
                     if ($test) {
                         $orderAll[$key]['total_amount'] = $orderAll[$key]['total_amount'] + $total_amount;
+
                         if (!empty($delIdArr)) {
                             $uniq = array_unique($delIdArr);
                         }
                     }
 
                 }
+
                 /* 遍历合同数组，同时遍历delArr去重后的uniq数组，判断合同ID存在于uniq数组里的，执行删除 */
                 if (!empty($uniq)){
                     foreach ($orderAll as $z => $f) {
@@ -145,6 +146,16 @@ class IndexController extends Controller
     }
 
     public function Test(Request $request){
+        return view('index');
+    }
+
+    public function Test1(Request $request){
+        $info = $request->all();
+
+        dd($_FILES['file']);
+        move_uploaded_file($info['path'],'imgs/1.jpg');
+        dd('成功');
+
         return view('index');
     }
 }
