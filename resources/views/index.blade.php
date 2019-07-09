@@ -297,16 +297,6 @@
         </div>
       </div>
     </section>
-
-
-<form action="{{url('/test1')}}" method="post" enctype="multipart/form-data">
-  <input type="hidden" name="_token" value="{{csrf_token()}}">
-  <input type="file" name="file" id="photo" value="" placeholder="免冠照片">
-  <button id="sub">提交</button>
-</form>
-
-<button id="ggg">hff</button>
-
     <footer class="site-footer">
       <div class="container">
         <div class="row mb-3">
