@@ -25,7 +25,7 @@
 //Auth::routes();
 Route::group(['prefix'=>'/','namespace'=>'Home'],function(){
     Route::get('/', 'IndexController@Test');
-    Route::get('/test', 'IndexController@Test');
+    Route::get('/test', 'IndexController@Index');
     Route::post('/test1', 'IndexController@Test1');
 });
 
