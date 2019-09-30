@@ -94,6 +94,25 @@
                 </div>
               </div>
             </div>
+
+            <div class="skill">
+              <h3>小程序和APP</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>VUE</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+
             <div class="skill">
               <h3>MVC and OOP</h3>
               <div class="progress">
@@ -150,14 +169,6 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
                   <span>92%</span>
-                </div>
-              </div>
-            </div>
-            <div class="skill">
-              <h3>VUE</h3>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                  <span>60%</span>
                 </div>
               </div>
             </div>
@@ -255,16 +266,16 @@
             <form action="" class="site-form">
               <h3 class="mb-5">Get In Touch</h3>
               <div class="form-group">
-                <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+                <input type="text" class="form-control px-3 py-4" required placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+                <input type="email" class="form-control px-3 py-4" required placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+                <input type="tel" class="form-control px-3 py-4" required placeholder="Your Phone">
               </div>
               <div class="form-group mb-5">
-                <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+                <textarea class="form-control px-3 py-4" cols="30" rows="10" required placeholder="Write a Message"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
@@ -276,21 +287,17 @@
             <ul class="site-contact-details">
               <li>
                 <span class="text-uppercase">Email</span>
-                site@gmail.com
+                953936531@qq.com
               </li>
               <li>
                 <span class="text-uppercase">Phone</span>
-                +30 976 1382 9921
-              </li>
-              <li>
-                <span class="text-uppercase">Fax</span>
-                +30 976 1382 9922
+                +86 15003487594
               </li>
               <li>
                 <span class="text-uppercase">Address</span>
-                San Francisco, CA <br>
-                4th Floor8 Lower  <br>
-                San Francisco street, M1 50F
+                上海市松江区<br>
+                九亭  <br>
+                九谊路 朗鼎公寓
               </li>
             </ul>
           </div>
@@ -313,8 +320,7 @@
         <div class="row">
             <p class="col-12 text-center">
             
-            Copyright &copy; <script>document.write(new Date().getFullYear());</script> - Colorlib All rights reserved | More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
-            
+
             </p>
         </div>
       </div>
