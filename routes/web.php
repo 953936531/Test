@@ -28,6 +28,7 @@ Route::group(['prefix'=>'/','namespace'=>'Home'],function(){
     Route::get('/', 'IndexController@Index');
     Route::get('/test', 'IndexController@Test');
     Route::get('/test1', 'IndexController@Test1');
+    Route::get('/test2', 'IndexController@Test2');
 });
 
 

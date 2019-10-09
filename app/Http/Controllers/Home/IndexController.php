@@ -27,4 +27,17 @@ class IndexController extends Controller
         dd($result);
         return view('index');
     }
+
+    public function Test2(Request $request){
+        $url = 'https://oa.jsmdiamond.com';
+
+        try{
+            $data = $this->get($url);
+        }catch (GuzzleException $e){
+            return $e;
+        }
+
+        return $data;
+    }
+
 }
